@@ -12,9 +12,6 @@ print("nilai 1 lebih besar dari nilai 2",lebih_besar)
 print("nilai 1 lebih kecil dari nilai 2",lebih_kecil)
 print("nilai 1 sama besar dengan nilai 2",Sama_Besar)
 
-batas1=70
-batas2=60
-
 if nilai1 > 70 and nilai2 > 70:
     print("Anda Lulus")
 else:
