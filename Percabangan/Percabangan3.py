@@ -8,13 +8,13 @@ rata = a / 3
 if rata >= 90:
     kategori="Nilai A,perilahal sangat bagus :) 😮 "
 elif rata >= 80:
-    kategori="Nilai B,hasil meyakinkan:) 😋"
+    kategori="Nilai B,hasil meyakinkan :) 😋"
 elif rata >= 60:
-    kategori="Nilai C,seukuran beliau masih layak:) 🤭"
+    kategori="Nilai C,seukuran beliau masih layak :) 🤭"
 elif rata >= 40:
-    kategori="Nilai D,perkara unik..:| 🫤"
+    kategori="Nilai D,perkara unik.. :| 🫤"
 elif rata >= 20:
-    kategori="Nilai E,patut dipertanyakan..:( 😮‍💨"
+    kategori="Nilai E,patut dipertanyakan.. :( 😮‍💨"
 else:
     kategori="Nilai F,cukup mengenaskan :( 🥹"
 
