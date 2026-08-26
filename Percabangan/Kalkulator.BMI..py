@@ -1,5 +1,5 @@
 nama = str(input("Masukan Nama Anda:"))
-berat = int(input("Masukan Berat Anda:"))
+berat = int(input("Masukan Berat Anda(dalam KG):"))
 tinggi = float(input("Masukan Tinggi Anda (dalam meter):"))
 
 hasil=berat/tinggi**2
