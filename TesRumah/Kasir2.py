@@ -28,14 +28,14 @@ uang=float(input("Masukan Total Pembayaran Anda:"))
 if kode == "a":
   hasil=(jumlah*a)
   
-elif kode == b:
-  hasil=jumlah*b
+elif kode == "b":
+  hasil=(jumlah*b)
   
-elif kode == c:
-  hasil=jumlah*c
+elif kode == "c":
+  hasil=(jumlah*c)
   
-elif kode == d:
-  hasil=jumlah*d
+elif kode == "d":
+  hasil=(jumlah*d)
 
 print(f"Total Belanja Anda Adalah {hasil}00 Rupiah")
 
