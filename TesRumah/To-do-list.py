@@ -25,18 +25,17 @@ while True:
                 print(f"{i}. {tugas}")
 
     elif pilihan == "3":
-    
         if len(todo) == 0:
             print("Tidak ada tugas yang bisa dihapus,isi dulu gih")
         else:
-            for i, tugas in enumerate(todo,1):
+            for i, tugas in enumerate(todo, 1):
                 print(f"{i}. {tugas}")
       
-            nomor = (input("Masukan nomer tugas yang ingin anda hapus,entah dah kelar atau gimana juga gak tau:"))
+            nomor = int(input("Masukan nomer tugas yang ingin anda hapus,entah dah kelar atau gimana juga gak tau:"))
     
             if 1 <= nomor <= len(todo):
-                todo.pop(nomor -1)
-                print("Tugas berhasil dihapus!,satu masalah hilang..mapakah nanti nambah lagi??")
+                tugas_dihapus = todo.pop(nomor - 1)
+                print(f"Tugas {tugas_dihapus} berhasil dihapus!,beneran udah selesai nih?")
             else:
                 print("Mau hapus apaan kalau emang gak ada?,lupa kah?")
 
