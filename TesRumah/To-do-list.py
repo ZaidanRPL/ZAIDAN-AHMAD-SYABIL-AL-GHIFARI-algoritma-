@@ -8,7 +8,7 @@ while True:
     print("3. Hapus Tugas")
     print("4. Keluar")
 
-    pilihan = input("Masukan Perintah(nomer urut)")
+    pilihan = input("Masukan Perintah(nomer urut):")
 
     if pilihan == "1":
         tugas=(input("Masukan Tugas Baru:"))
